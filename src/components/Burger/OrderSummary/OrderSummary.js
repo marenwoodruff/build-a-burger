@@ -4,6 +4,7 @@ import Aux from '../../../hoc/Aux';
 import Button from '../../UI/Button/Button';
 
 class OrderSummary extends Component {
+  // this could be a functional component, it doesn't have to be a class
   // figure out when the component will udpate
   componentWillUpdate() {
     console.log('[OrderSummary] will update');
