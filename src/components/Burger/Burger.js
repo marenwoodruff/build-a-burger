@@ -19,7 +19,7 @@ const burger = (props) => {
     })
 
   if (transformedIngredients.length === 0) {
-    transformedIngredients = <p style={{textAlign: "center"}}>Please start adding ingredients</p>
+    transformedIngredients = <p style={{textAlign: "center"}}>please start adding ingredients</p>
   }
 
   return (
