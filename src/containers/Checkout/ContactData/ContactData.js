@@ -85,15 +85,15 @@ class ContactData extends Component {
         elementConfig: {
           options: [{
               value: 'fastest',
-              displayValue: 'Fastest'
+              displayValue: 'fastest'
             },
             {
               value: 'cheapest',
-              displayValue: 'Cheapest'
+              displayValue: 'cheapest'
             }
           ]
         },
-        value: '',
+        value: 'fastest',
         validation: {},
         valid: true
       }
@@ -207,7 +207,7 @@ class ContactData extends Component {
           btnType = "Success"
           disabled = {!this.state.formIsValid}>  
           order
-          </Button> 
+        </Button> 
       </form>
     );
     if (this.state.loading) {
